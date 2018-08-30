@@ -80,6 +80,7 @@
         "provider": "[toUpper(parameters('elasticTags').provider)]"
       },
       "properties": {
+        "enableAcceleratedNetworking": true,
         "ipConfigurations": [
           {
             "name": "ipconfig1",
