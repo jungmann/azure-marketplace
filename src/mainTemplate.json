@@ -81,6 +81,17 @@
         "description": "Choose whether to install Azure Repository plugin. The plugin allows a Azure storage account to be used for snapshot and restore. If azureCloudStorageAccountName and azureCloudStorageAccountKey are not supplied, will use the shared storage account deployed."
       }
     },
+    "vmAcceleratedNetworking": {
+      "type": "string",
+      "allowedValues": [
+        "True",
+        "False"
+      ],
+      "defaultValue": "False",
+      "metadata": {
+        "description": "Choose whether to enable accelerated networking (requires 4 CPU)."
+      }
+    },
     "azureCloudStorageAccountName": {
       "type": "string",
       "defaultValue": "",
