@@ -76,9 +76,6 @@
           },
           "elasticTags": {
             "value": "[parameters('elasticTags')]"
-          },
-          "vmAcceleratedNetworking": {
-            "value": "False"
           }
         }
       }
